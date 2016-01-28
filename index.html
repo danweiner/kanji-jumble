@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1">
+	<title>Kanji Jumble</title>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic,700italic,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header>
+		<nav>
+			<p class="char">道</p>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="radicals.html">Radicals</a></li>
+				<li><a href="#">About</a></li>
+			</ul>
+		</nav>
+		<h1>Kanji Jumble</h1>
+	</header>
+
+	<div class="wrapper">
+		<div id="problem-1" class="container">
+			
+			<div class="col">
+				<button id="reset">Click for new Kanji</button>
+				<h2>Components:</h2>
+				<p class="components">糸 夊 口</p>
+			</div>
+			<div class="col">
+				<h3>Try to draw the Kanji</h3>
+				<canvas width="300" height="300" style="border:1px solid #000000;">
+				</canvas>
+				<button id="resetCanvas">Reset Canvas</button>
+			</div>
+			<div class="col">
+
+				<p class="spoiler">
+					
+					<span>絡</span>
+					<button class='reveal'>Reveal Answer!</button>
+				</p> 
+			</div>
+			
+
+		</div>
+
+
+
+		
+		
+		
+	</div>
+
+	
+	<script src="jquery-2.1.4.min.js"></script>
+	<script src="script.js"></script>
+
+</body>
+</html>
