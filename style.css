@@ -124,6 +124,36 @@ td, th {
   padding: 5px;
 }
 
+footer {
+  clear: both;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  background-color: #C0C0C0;
+  position: relative;
+}
+
+a:-webkit-any-link {
+  color: #000;
+  text-decoration: none;
+}
+
+a:-webkit-any-link:hover {
+  color: #F47983;
+}
+
+small {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 @media all and (min-width: 900px) {
   .col {
   float: left;
