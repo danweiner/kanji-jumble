@@ -148,13 +148,22 @@ small {
   left: 0;
 }
 
+.list li{
+  list-style: decimal;
+}
+
 .clearfix::after {
   content: "";
   display: table;
   clear: both;
 }
 
+ .wrapper {
+    min-height: calc(100vh - 100px);
+  }
+
 @media all and (min-width: 900px) {
+
   .col {
   float: left;
   width: 33%;
